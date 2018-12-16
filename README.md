@@ -41,11 +41,11 @@ As part of your pre-work submission, please reflect on the app and answer the fo
 
 **Question 1:** "What are your reactions to the Android app development platform so far? Compare and contrast Android's approach to layouts and user interfaces in past platforms you've used."
 
-**Answer:** The Android app development platform seems easy for a beginner to learn, yet takes practice to truly master. The platform seems like a combination of visual and text-based programming. 
+**Answer:** The Android app development platform seems easy for a beginner to learn, yet takes practice to truly master. The platform seems like a combination of visual and text-based programming. Similar to LabView programming, Android programming has drag-and-drop programming. Like text-based programming, Android programming allows systematically creating functions from a given event. 
 
 **Question 2:** "Take a moment to reflect on the `ArrayAdapter` used in your pre-work. How would you describe an adapter in this context and what is its function in Android? Why do you think the adapter is important? Explain the purpose of the `convertView` in the `getView` method of the `ArrayAdapter`."
 
-**Answer:** [Enter your answer here in a paragraph or two].
+**Answer:** I understand an adapter as a dynamic data type that bridges between the user interface and the underlying code. The shape or content of an adapter can change after processing input or events that occur from the user's end. The adapter is important because they are unique to the specific functions of the application. For example, an ArrayAdapter could be used as a photo grid in one application, or a to-do list in another. `convertView` "recycles" View objects, as opposed to generating a new object each time a user wants to make a change. In the context of this app, a new `ArrayAdapter` does not have to be regenerated each time a user decides to add/remove an item to the to-do list; the item is simply written/popped from the list and dynamically shown in the `ArrayAdapter`.
 
 ## Notes
 
